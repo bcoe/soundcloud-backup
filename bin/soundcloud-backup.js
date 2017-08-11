@@ -3,6 +3,7 @@
 const SoundCloudBackup = require('../')
 
 require('yargs') // eslint-disable-line
+  .usage('$0 <command> [args]')
   .command(['backup', '*'], 'backup your SoundCloud meta-information', () => {}, (argv) => {
     SoundCloudBackup(argv)
   })
