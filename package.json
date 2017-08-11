@@ -5,7 +5,8 @@
   "main": "index.js",
   "bin": "./bin/soundcloud-backup.js",
   "scripts": {
-    "test": "standard"
+    "test": "standard",
+    "release": "standard-version"
   },
   "repository": {
     "type": "git",
@@ -33,6 +34,7 @@
     "yargs": "^8.0.2"
   },
   "devDependencies": {
-    "standard": "^10.0.3"
+    "standard": "^10.0.3",
+    "standard-version": "^4.2.0"
   }
 }

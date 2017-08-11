@@ -34,7 +34,7 @@ function SouncloudBackup (opts) {
       // comments aren't interesting without the attached track,
       // so grab this.
       return new Promise((resolve, reject) => {
-        eachLimit(comments.slice(0, 10), 1, (comment, done) => {
+        eachLimit(comments, 1, (comment, done) => {
           get({
             url: `https://api.soundcloud.com/tracks/${comment.track_id}?client_id=${opts.clientId}`,
             json: true
