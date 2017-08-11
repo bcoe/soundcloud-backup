@@ -1,0 +1,38 @@
+{
+  "name": "soundcloud-backup",
+  "version": "1.0.0",
+  "description": "backup your SoundCloud accounts's meta information",
+  "main": "index.js",
+  "bin": "./bin/soundcloud-backup.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bcoe/soundcloud-backup.git"
+  },
+  "keywords": [
+    "soundcloud",
+    "backup",
+    "api"
+  ],
+  "author": "Ben Coe <ben@npmjs.coM>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bcoe/soundcloud-backup/issues"
+  },
+  "homepage": "https://github.com/bcoe/soundcloud-backup#readme",
+  "dependencies": {
+    "async": "^2.5.0",
+    "bluebird": "^3.5.0",
+    "chalk": "^2.1.0",
+    "figures": "^2.0.0",
+    "mkdirp": "^0.5.1",
+    "request": "^2.81.0",
+    "simple-soundcloud": "^1.4.0",
+    "yargs": "^8.0.2"
+  },
+  "devDependencies": {
+    "standard": "^10.0.3"
+  }
+}
